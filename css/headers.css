@@ -6,6 +6,10 @@
 
 #header #nav .select-menu { display: none }
 
+#header #nav {
+	min-width: 940px;
+}
+
 #header #nav ul {
     /*float: right;*/
     list-style: none;
@@ -17,6 +21,7 @@
         display: block;
         float: left;
         position: relative;
+        padding: 5px;
     }
 
         #header #nav ul li a {
