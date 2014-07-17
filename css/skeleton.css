@@ -1,0 +1,181 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Contents
+==================================================
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+/* ------------------------------------------------------------------------ */
+/* Tablet (Portrait)
+/* ------------------------------------------------------------------------ */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        .wrapper                                  { width: 768px; }
+        .wrapper .span,
+        .wrapper .spans                         { margin-left: 10px; margin-right: 10px;  }
+        .span.alpha, .spans.alpha               { margin-left: 0; margin-right: 10px; }
+        .span.omega, .spans.omega               { margin-right: 0; margin-left: 10px; }
+        .alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+        .wrapper .one.span,
+        .wrapper .one.spans                     { width: 28px; }
+        .wrapper .two.spans                     { width: 76px; }
+        .wrapper .three.spans                   { width: 124px; }
+        .wrapper .four.spans                    { width: 172px; }
+        .wrapper .five.spans                    { width: 220px; }
+        .wrapper .six.spans                     { width: 268px; }
+        .wrapper .seven.spans                   { width: 316px; }
+        .wrapper .eight.spans                   { width: 364px; }
+        .wrapper .nine.spans                    { width: 412px; }
+        .wrapper .ten.spans                     { width: 460px; }
+        .wrapper .eleven.spans                  { width: 508px; }
+        .wrapper .twelve.spans                  { width: 556px; }
+        .wrapper .thirteen.spans                { width: 604px; }
+        .wrapper .fourteen.spans                { width: 652px; }
+        .wrapper .fifteen.spans                 { width: 700px; }
+        .wrapper .sixteen.spans                 { width: 748px; }
+
+        .wrapper .one-third.spans               { width: 236px; }
+        .wrapper .two-thirds.span               { width: 492px; }
+
+        /* Offsets */
+        .wrapper .offset-by-one                   { padding-left: 48px; }
+        .wrapper .offset-by-two                   { padding-left: 96px; }
+        .wrapper .offset-by-three                 { padding-left: 144px; }
+        .wrapper .offset-by-four                  { padding-left: 192px; }
+        .wrapper .offset-by-five                  { padding-left: 240px; }
+        .wrapper .offset-by-six                   { padding-left: 288px; }
+        .wrapper .offset-by-seven                 { padding-left: 336px; }
+        .wrapper .offset-by-eight                 { padding-left: 384px; }
+        .wrapper .offset-by-nine                  { padding-left: 432px; }
+        .wrapper .offset-by-ten                   { padding-left: 480px; }
+        .wrapper .offset-by-eleven                { padding-left: 528px; }
+        .wrapper .offset-by-twelve                { padding-left: 576px; }
+        .wrapper .offset-by-thirteen              { padding-left: 624px; }
+        .wrapper .offset-by-fourteen              { padding-left: 672px; }
+        .wrapper .offset-by-fifteen               { padding-left: 720px; }
+    }
+
+
+/* ------------------------------------------------------------------------ */
+/* Mobile (Portrait)
+/* ------------------------------------------------------------------------ */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .wrapper { width: 300px; }
+        .wrapper .spans,
+        .wrapper .span { margin: 0; }
+
+        .wrapper .one.span,
+        .wrapper .one.spans,
+        .wrapper .two.spans,
+        .wrapper .three.spans,
+        .wrapper .four.spans,
+        .wrapper .five.spans,
+        .wrapper .six.spans,
+        .wrapper .seven.spans,
+        .wrapper .eight.spans,
+        .wrapper .nine.spans,
+        .wrapper .ten.spans,
+        .wrapper .eleven.spans,
+        .wrapper .twelve.spans,
+        .wrapper .thirteen.spans,
+        .wrapper .fourteen.spans,
+        .wrapper .fifteen.spans,
+        .wrapper .sixteen.spans,
+        .wrapper .one-third.span,
+        .wrapper .two-thirds.span  { width: 300px; }
+
+        /* Offsets */
+        .wrapper .offset-by-one,
+        .wrapper .offset-by-two,
+        .wrapper .offset-by-three,
+        .wrapper .offset-by-four,
+        .wrapper .offset-by-five,
+        .wrapper .offset-by-six,
+        .wrapper .offset-by-seven,
+        .wrapper .offset-by-eight,
+        .wrapper .offset-by-nine,
+        .wrapper .offset-by-ten,
+        .wrapper .offset-by-eleven,
+        .wrapper .offset-by-twelve,
+        .wrapper .offset-by-thirteen,
+        .wrapper .offset-by-fourteen,
+        .wrapper .offset-by-fifteen { padding-left: 0; }
+        
+        .one_half,
+        .one_third,
+        .two_third,
+        .one_fourth,
+        .three_fourth,
+        .one_fifth,
+        .two_fifth,
+        .three_fifth,
+        .four_fifth,
+        .one_sixth,
+        .five_sixth { width: 300px; }
+
+    }
+
+
+/* ------------------------------------------------------------------------ */
+/* Mobile (Landscape)
+/* ------------------------------------------------------------------------ */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .wrapper { width: 420px; }
+        .wrapper .spans,
+        .wrapper .span { margin: 0; }
+
+        .wrapper .one.span,
+        .wrapper .one.spans,
+        .wrapper .two.spans,
+        .wrapper .three.spans,
+        .wrapper .four.spans,
+        .wrapper .five.spans,
+        .wrapper .six.spans,
+        .wrapper .seven.spans,
+        .wrapper .eight.spans,
+        .wrapper .nine.spans,
+        .wrapper .ten.spans,
+        .wrapper .eleven.spans,
+        .wrapper .twelve.spans,
+        .wrapper .thirteen.spans,
+        .wrapper .fourteen.spans,
+        .wrapper .fifteen.spans,
+        .wrapper .sixteen.spans,
+        .wrapper .one-third.span,
+        .wrapper .two-thirds.span { width: 420px; }
+        
+        .one_half,
+        .one_third,
+        .two_third,
+        .one_fourth,
+        .three_fourth,
+        .one_fifth,
+        .two_fifth,
+        .three_fifth,
+        .four_fifth,
+        .one_sixth,
+        .five_sixth { width: 420px; }
+    }
+    
+/* ------------------------------------------------------------------------ */
+/* EOF
+/* ------------------------------------------------------------------------ */
