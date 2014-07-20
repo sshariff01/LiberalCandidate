@@ -34,7 +34,8 @@
 	box-shadow: 0 0 5px #ccc;
 	border:  0px solid #fff;*/
 	/* left: -5px; */
-	background: #B51010;
+	background: url('../img/bg_image.png') no-repeat;
+	background-size: cover;
 	max-height: 500px;
 	margin-bottom: 50px;
 	
