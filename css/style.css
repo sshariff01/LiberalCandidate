@@ -33,6 +33,10 @@ Description: A responsive & multi-purpose WordPress Theme with unlimited customi
     padding: 0;
 }
 
+.banner {
+	background: #B51010;
+}
+
     .wrapper .span,
     .wrapper .spans {
         float: left;
