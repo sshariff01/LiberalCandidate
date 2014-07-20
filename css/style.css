@@ -34,7 +34,8 @@ Description: A responsive & multi-purpose WordPress Theme with unlimited customi
 }
 
 .banner {
-	background: #B51010;
+	background: url('../img/bg_image.png') no-repeat;
+	background-size: cover;
 }
 
     .wrapper .span,
