@@ -21,11 +21,18 @@
         display: block;
         float: left;
         position: relative;
-        padding: 5px;
+        padding: 4px;
+        border-left-style: solid; 
+        border-left-width: 1px;
+        border-color: #910000;
+        height: 30px; padding-top: 12px; 
     }
     
+    .last-element {
+    	border-right-style: solid; 
+        border-right-width: 1px;
+    }
     
-
         #header #nav ul li a {
         	height:87px;
             display: block;
@@ -35,13 +42,16 @@
             padding: 0px 5px;
             border-bottom: 3px solid transparent;
             font-size: 13px;
-            color: #666666;
+            height: 27px; line-height: 27px; 
+            font-family: "Palatino, serif"; font-size: 15px; font-weight: normal; color: white;
         }
 
         #header #nav ul li a:hover {
-            color: #333333;
-            border-bottom: 3px solid #333333;
+        	font-weight: 600;
+            /*border-bottom: 3px solid #333333;
+            color: #777777; border-color: #777777;*/
         }
+        
 
 /* Active Status ---------------------------------------------------- */
 #header #nav li.current-menu-item a,
@@ -54,10 +64,11 @@
 #header #nav li.current-menu-parent a:hover,
 #header #nav li.current_page_ancestor a,
 #header #nav li.current_page_ancestor a:hover {
-    color: #289dcc;
+    color: white;
     font-weight: 600;
-    border-bottom: 3px solid #289dcc;
+    /*border-bottom: 3px solid white;*/
 }
+
 
 /* Sub-menu ---------------------------------------------------- */
 #header #nav .sub-menu{
