@@ -530,12 +530,16 @@ div.wpcf7-validation-errors {
 /* ------------------------------------------------------------------------ */
 
 #socket {
-    height: 40px;
+    height: 80px;
     font-size: 10px;
     background: #ffffff;
 	position:relative;
 	width:100%;
 	z-index: 100;
+}
+
+#shafqat_logo {
+	height: 50px;
 }
 
     #socket .text-input {
