@@ -34,9 +34,10 @@
 	box-shadow: 0 0 5px #ccc;
 	border:  0px solid #fff;*/
 	/* left: -5px; */
-	background: url('../img/bg_image.png') no-repeat;
+	/*background: url('../img/bg_image.png') no-repeat;*/
+	background: #d22f3a;
 	background-size: cover;
-	max-height: 500px;
+	max-height: 450px;
 	margin-bottom: 50px;
 	
 	/*fix other elements on the page moving (on Chrome)*/
